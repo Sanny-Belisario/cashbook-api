@@ -1,0 +1,25 @@
+{
+  "name": "cashbook-api",
+  "version": "1.0.0",
+  "description": "CashBook API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanny-Belisario/cashbook-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sanny-Belisario/cashbook-api/issues"
+  },
+  "homepage": "https://github.com/Sanny-Belisario/cashbook-api#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3"
+  }
+}
