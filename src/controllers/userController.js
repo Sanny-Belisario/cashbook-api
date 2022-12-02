@@ -9,7 +9,7 @@ exports.get=async()=>{
   }
  
   exports.logout=async(token)=>{
-     return await userModel.login(data);
+     return await userModel.logout(token);
       
   }
  
