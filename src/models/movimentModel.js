@@ -57,7 +57,7 @@ post= async (date, idUser)=>{
  }
 
  getIOAnoMes = async (ano, mes) => {
-    sql = "SELECT value, date, type FROM moviment WHERE date > '" + ano + "-" + mes + "%' GROUP BY type, date"
+    sql = "SELECT value, date, type FROM moviment WHERE date like '" + ano + "-" + mes + "%' GROUP BY type, date"
     return await mysql.query(sql);
  }
 
